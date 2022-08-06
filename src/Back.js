@@ -28,7 +28,8 @@ export default function Back() {
           <div className="container">
             <div className="row">
               
-              {data.forEach(element => {
+              {data.map((element , index) => {
+                return (
                 <div className="col-lg-4">
                   <FullComp 
                     cardTitle = {element.cardTitle} 
@@ -36,8 +37,8 @@ export default function Back() {
                     user = {element.user}
                     storage = {element.storage}
                   />
-                </div>})}
-          
+                </div>)})}
+
             {/* <div className="col-lg-4">
               <FullComp 
               cardTitle="free"

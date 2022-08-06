@@ -14,7 +14,7 @@ export default function FullComp(props) {
                       props.cardTitle === 'free' ? 'font-weight-normal' : 'font-weight-bold'
                       }`}><span className="fa-li"><i className="fas fa-check"></i></span>{props.user}</li>
 
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>{props.storage} </li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>{props.storage}GB Storage </li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Unlimited Public Projects</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Community Access</li>
                     <li className={`${
